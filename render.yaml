@@ -52,8 +52,7 @@ services:
         destination: /index.html
 
 databases:
-  # 3. PostgreSQL Database
   - name: virtual-interior-db
     databaseName: virtual_interior_db
-    user: postgres
+    user: virtual_interior_user
     plan: free
