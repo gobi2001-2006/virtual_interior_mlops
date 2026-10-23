@@ -1,0 +1,9 @@
+{
+  "Bedroom": 0,
+  "LivingRoom": 1,
+  "Kitchen": 2,
+  "DiningRoom": 3,
+  "Bathroom": 4,
+  "HomeOffice": 5,
+  "Other": 6
+}

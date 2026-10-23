@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_bedq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F7F4" />
+      <stop offset="100%" stop-color="#EDE9DF" />
+    </linearGradient>
+    <filter id="shadow_bedq" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_bedq)" rx="16" />
+  <ellipse cx="200" cy="250" rx="145" ry="16" fill="rgba(0,0,0,0.08)" />
+  <g filter="url(#shadow_bedq)">
+    <rect x="80" y="65" width="240" height="100" rx="12" fill="#C5BAA8" />
+    <line x1="160" y1="70" x2="160" y2="155" stroke="#A89E8D" stroke-width="2" stroke-dasharray="4 4" />
+    <line x1="240" y1="70" x2="240" y2="155" stroke="#A89E8D" stroke-width="2" stroke-dasharray="4 4" />
+    <rect x="70" y="195" width="260" height="42" rx="8" fill="#8B5A2B" />
+    <rect x="85" y="145" width="230" height="60" rx="10" fill="#FFFFFF" stroke="#E2DCD2" stroke-width="2" />
+    <rect x="100" y="115" width="85" height="45" rx="8" fill="#F4EFE6" stroke="#D3CBC0" stroke-width="1.5" />
+    <rect x="215" y="115" width="85" height="45" rx="8" fill="#F4EFE6" stroke="#D3CBC0" stroke-width="1.5" />
+    <rect x="85" y="165" width="230" height="48" rx="8" fill="#D8CFBC" />
+    <rect x="85" y="195" width="230" height="22" rx="4" fill="#6B7C6E" opacity="0.85" />
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "model_version": "v001",
+  "model_type": "furniture_layout_recommender",
+  "algorithm": "RandomForestRegressor",
+  "weights_path": "ml\\artifacts\\layout_model_v001.joblib",
+  "dataset_provenance": "synthetic_architectural_design_principles_v1",
+  "dataset_samples": 1500,
+  "test_samples": 300,
+  "metrics": {
+    "mse": 0.0048,
+    "mae": 0.0516,
+    "r2_score": 0.8848,
+    "collision_rate": 0.0,
+    "out_of_bounds_rate": 0.0,
+    "feasible_layout_rate": 1.0
+  },
+  "top_features": {
+    "wall_alignment_score": 0.6634,
+    "dist_to_min_wall": 0.1119,
+    "dist_to_center": 0.035,
+    "room_type_dining": 0.0259,
+    "room_type_other": 0.0205,
+    "furn_cat_chair": 0.0143,
+    "furn_height": 0.0109,
+    "furn_price": 0.0104
+  },
+  "quality_gate_passed": true
+}

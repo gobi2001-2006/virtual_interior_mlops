@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_oped" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F8FAFA"/><stop offset="100%" stop-color="#E8ECEC"/></linearGradient>
+    <filter id="sh_oped"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_oped)" rx="16"/>
+  <ellipse cx="200" cy="248" rx="65" ry="10" fill="rgba(0,0,0,0.07)"/>
+  <g filter="url(#sh_oped)">
+    <circle cx="155" cy="238" r="6" fill="#37474F"/>
+    <circle cx="245" cy="238" r="6" fill="#37474F"/>
+    <rect x="145" y="100" width="110" height="130" rx="6" fill="#FFFFFF" stroke="#CFD8DC" stroke-width="2"/>
+    <rect x="152" y="108" width="96" height="32" rx="3" fill="#ECEFF1"/>
+    <rect x="152" y="146" width="96" height="32" rx="3" fill="#ECEFF1"/>
+    <rect x="152" y="184" width="96" height="38" rx="3" fill="#ECEFF1"/>
+    <rect x="190" y="122" width="20" height="4" rx="2" fill="#78909C"/>
+    <rect x="190" y="160" width="20" height="4" rx="2" fill="#78909C"/>
+    <rect x="190" y="200" width="20" height="4" rx="2" fill="#78909C"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_ward" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9F6" />
+      <stop offset="100%" stop-color="#EBE7DE" />
+    </linearGradient>
+    <filter id="shadow_ward" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_ward)" rx="16" />
+  <ellipse cx="200" cy="252" rx="100" ry="14" fill="rgba(0,0,0,0.08)" />
+  <g filter="url(#shadow_ward)">
+    <rect x="120" y="50" width="160" height="195" rx="6" fill="#EDE8DE" stroke="#C5BCAE" stroke-width="2" />
+    <rect x="126" y="56" width="72" height="183" rx="4" fill="#F8F6F0" />
+    <rect x="192" y="130" width="4" height="35" rx="2" fill="#A89E8D" />
+    <rect x="202" y="56" width="72" height="183" rx="4" fill="#DFE6E8" stroke="#C5CED1" stroke-width="1.5" />
+    <line x1="215" y1="70" x2="260" y2="190" stroke="#FFFFFF" stroke-width="3" opacity="0.4" />
+    <rect x="204" y="130" width="4" height="35" rx="2" fill="#78888D" />
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_ben" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF9F7"/><stop offset="100%" stop-color="#EAE5DC"/></linearGradient>
+    <filter id="sh_ben"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_ben)" rx="16"/>
+  <ellipse cx="200" cy="245" rx="115" ry="12" fill="rgba(0,0,0,0.06)"/>
+  <g filter="url(#sh_ben)">
+    <polygon points="105,190 98,242 106,242 112,190" fill="#6B4E3D"/>
+    <polygon points="295,190 302,242 294,242 288,190" fill="#6B4E3D"/>
+    <rect x="90" y="175" width="220" height="20" rx="4" fill="#8B6B55"/>
+    <rect x="85" y="145" width="230" height="35" rx="10" fill="#C8B89E"/>
+    <line x1="140" y1="145" x2="140" y2="180" stroke="#B09F85" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="200" y1="145" x2="200" y2="180" stroke="#B09F85" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="260" y1="145" x2="260" y2="180" stroke="#B09F85" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_dside" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF8F5"/><stop offset="100%" stop-color="#ECE4D6"/></linearGradient>
+    <filter id="sh_dside"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_dside)" rx="16"/>
+  <ellipse cx="200" cy="246" rx="130" ry="12" fill="rgba(0,0,0,0.06)"/>
+  <g filter="url(#sh_dside)">
+    <polygon points="105,210 98,245 106,245 112,210" fill="#4E342E"/>
+    <polygon points="295,210 302,245 294,245 288,210" fill="#4E342E"/>
+    <rect x="80" y="105" width="240" height="110" rx="8" fill="#A1887F"/>
+    <rect x="86" y="112" width="70" height="96" rx="4" fill="#BCAAA4"/>
+    <rect x="165" y="112" width="70" height="96" rx="4" fill="#BCAAA4"/>
+    <rect x="244" y="112" width="70" height="96" rx="4" fill="#BCAAA4"/>
+    <rect x="145" y="155" width="4" height="20" rx="2" fill="#3E2723"/>
+    <rect x="175" y="155" width="4" height="20" rx="2" fill="#3E2723"/>
+    <rect x="255" y="155" width="4" height="20" rx="2" fill="#3E2723"/>
+  </g>
+</svg>

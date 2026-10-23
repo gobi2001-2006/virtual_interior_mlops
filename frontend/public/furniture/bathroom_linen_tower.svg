@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_btow" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F7FAF9"/><stop offset="100%" stop-color="#E5ECE9"/></linearGradient>
+    <filter id="sh_btow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_btow)" rx="16"/>
+  <ellipse cx="200" cy="254" rx="65" ry="10" fill="rgba(0,0,0,0.07)"/>
+  <g filter="url(#sh_btow)">
+    <rect x="150" y="45" width="100" height="200" rx="6" fill="#FFFFFF" stroke="#CFD8DC" stroke-width="2"/>
+    <rect x="156" y="55" width="88" height="60" rx="3" fill="#E0F2F1"/>
+    <rect x="156" y="125" width="88" height="50" rx="3" fill="#F5F5F5"/>
+    <rect x="156" y="185" width="88" height="52" rx="3" fill="#F5F5F5"/>
+    <circle cx="235" cy="150" r="3" fill="#37474F"/>
+    <circle cx="235" cy="210" r="3" fill="#37474F"/>
+  </g>
+</svg>

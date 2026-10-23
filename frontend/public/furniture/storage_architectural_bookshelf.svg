@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_book" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F9F8" />
+      <stop offset="100%" stop-color="#EAE9E5" />
+    </linearGradient>
+    <filter id="shadow_book" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_book)" rx="16" />
+  <ellipse cx="200" cy="252" rx="90" ry="12" fill="rgba(0,0,0,0.07)" />
+  <g filter="url(#shadow_book)">
+    <rect x="135" y="45" width="6" height="200" fill="#383E3A" />
+    <rect x="259" y="45" width="6" height="200" fill="#383E3A" />
+    <rect x="130" y="55" width="140" height="8" rx="2" fill="#BFA993" />
+    <rect x="130" y="98" width="140" height="8" rx="2" fill="#BFA993" />
+    <rect x="130" y="141" width="140" height="8" rx="2" fill="#BFA993" />
+    <rect x="130" y="184" width="140" height="8" rx="2" fill="#BFA993" />
+    <rect x="130" y="227" width="140" height="8" rx="2" fill="#BFA993" />
+    <rect x="145" y="70" width="8" height="28" fill="#6B7C6E" />
+    <rect x="154" y="65" width="10" height="33" fill="#B88E75" />
+    <rect x="165" y="68" width="7" height="30" fill="#3E6B48" />
+    <circle cx="190" cy="126" r="12" fill="#D8CFBC" />
+    <ellipse cx="220" cy="128" rx="8" ry="12" fill="#A89E8D" />
+    <rect x="215" y="156" width="10" height="28" fill="#586A5B" />
+    <rect x="226" y="152" width="12" height="32" fill="#A08068" />
+    <rect x="239" y="158" width="8" height="26" fill="#DDD5C7" />
+  </g>
+</svg>

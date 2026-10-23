@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_bstl" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FBF9F7"/><stop offset="100%" stop-color="#EFE6DC"/></linearGradient>
+    <filter id="sh_bstl"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_bstl)" rx="16"/>
+  <ellipse cx="200" cy="245" rx="60" ry="10" fill="rgba(0,0,0,0.07)"/>
+  <g filter="url(#sh_bstl)">
+    <polygon points="150,170 142,242 150,242 158,170" fill="#6D4C41"/>
+    <polygon points="250,170 258,242 250,242 242,170" fill="#6D4C41"/>
+    <rect x="135" y="150" width="130" height="20" rx="6" fill="#8D6E63"/>
+    <line x1="175" y1="150" x2="175" y2="170" stroke="#5D4037" stroke-width="2"/>
+    <line x1="225" y1="150" x2="225" y2="170" stroke="#5D4037" stroke-width="2"/>
+  </g>
+</svg>

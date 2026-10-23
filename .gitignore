@@ -1,0 +1,115 @@
+# ==============================================================================
+# Git Ignore Configuration for MLOps Virtual Interior Designer
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment & Secret Files (CRITICAL - Never commit actual credentials)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ------------------------------------------------------------------------------
+# 2. Python & Bytecode
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------------------------------------------
+# 3. Virtual Environments
+# ------------------------------------------------------------------------------
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 4. Node.js & Frontend Build Outputs
+# ------------------------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ------------------------------------------------------------------------------
+# 5. Local Databases
+# ------------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+virtual_interior_dev.db
+
+# ------------------------------------------------------------------------------
+# 6. Uploaded Media & User Files
+# ------------------------------------------------------------------------------
+uploads/*
+!uploads/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 7. Raw Training Datasets (Exclude heavy multi-gigabyte source data)
+# ------------------------------------------------------------------------------
+ml/data/downloads/
+ml/data/processed/
+ml/data/raw/
+data/
+
+# ------------------------------------------------------------------------------
+# 8. MLflow Experiments & Testing Caches
+# ------------------------------------------------------------------------------
+ml/experiments/mlruns/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ------------------------------------------------------------------------------
+# 9. Retraining Pipeline Ephemeral Candidate Models
+# ------------------------------------------------------------------------------
+ml/artifacts/model_v_candidate_*
+ml/artifacts/layout_model_v_test_*
+
+# ------------------------------------------------------------------------------
+# 10. Explicitly Track Required Production Model Artifacts
+# ------------------------------------------------------------------------------
+!ml/artifacts/model_v003.pth
+!ml/artifacts/model_v003.json
+!ml/artifacts/model_v001.pth
+!ml/artifacts/model_v001.json
+!ml/artifacts/class_mapping.json
+!ml/artifacts/layout_model_v001.joblib
+!ml/artifacts/layout_model_v001.json
+
+# ------------------------------------------------------------------------------
+# 11. Operating System & Editor Files
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

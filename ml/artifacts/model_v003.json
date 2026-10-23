@@ -1,0 +1,163 @@
+{
+  "version_tag": "v003",
+  "architecture": "MobileNetV3-Small",
+  "num_classes": 7,
+  "classes": [
+    "Bedroom",
+    "LivingRoom",
+    "Kitchen",
+    "DiningRoom",
+    "Bathroom",
+    "HomeOffice",
+    "Other"
+  ],
+  "epochs": 2,
+  "batch_size": 8,
+  "learning_rate": 0.0005,
+  "training_samples_per_class": {
+    "Bedroom": 1083,
+    "LivingRoom": 1164,
+    "Kitchen": 1207,
+    "DiningRoom": 1176,
+    "Bathroom": 740,
+    "HomeOffice": 1240,
+    "Other": 0
+  },
+  "total_samples": 6610,
+  "is_synthetic_demo": false,
+  "provenance_notes": "Curated interior room dataset.",
+  "training_duration_seconds": 1663.73,
+  "test_metrics": {
+    "accuracy": 0.8445,
+    "macro_f1": 0.8447,
+    "precision": 0.8462,
+    "recall": 0.8444,
+    "sample_count": 1003,
+    "per_class_metrics": {
+      "Bedroom": {
+        "precision": 0.9565,
+        "recall": 0.9059,
+        "f1_score": 0.9305,
+        "support": 170
+      },
+      "LivingRoom": {
+        "precision": 0.8579,
+        "recall": 0.887,
+        "f1_score": 0.8722,
+        "support": 177
+      },
+      "Kitchen": {
+        "precision": 0.8571,
+        "recall": 0.7956,
+        "f1_score": 0.8252,
+        "support": 181
+      },
+      "DiningRoom": {
+        "precision": 0.8032,
+        "recall": 0.8629,
+        "f1_score": 0.832,
+        "support": 175
+      },
+      "Bathroom": {
+        "precision": 0.8246,
+        "recall": 0.8246,
+        "f1_score": 0.8246,
+        "support": 114
+      },
+      "HomeOffice": {
+        "precision": 0.7778,
+        "recall": 0.7903,
+        "f1_score": 0.784,
+        "support": 186
+      },
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "support": 0
+      }
+    },
+    "confusion_matrix": [
+      [
+        154,
+        5,
+        4,
+        0,
+        1,
+        6,
+        0
+      ],
+      [
+        2,
+        157,
+        1,
+        15,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        144,
+        8,
+        6,
+        22,
+        0
+      ],
+      [
+        2,
+        6,
+        4,
+        151,
+        3,
+        9,
+        0
+      ],
+      [
+        2,
+        3,
+        9,
+        1,
+        94,
+        5,
+        0
+      ],
+      [
+        0,
+        12,
+        6,
+        13,
+        8,
+        147,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0234,
+      "train_acc": 0.6203,
+      "val_acc": 0.766,
+      "val_macro_f1": 0.7671
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5873,
+      "train_acc": 0.7948,
+      "val_acc": 0.8338,
+      "val_macro_f1": 0.8365
+    }
+  ],
+  "created_at": "2026-10-23T06:22:01Z"
+}

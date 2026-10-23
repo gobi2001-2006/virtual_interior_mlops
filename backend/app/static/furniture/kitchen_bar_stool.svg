@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_bstool" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF9F7"/><stop offset="100%" stop-color="#ECE6DC"/></linearGradient>
+    <filter id="sh_bstool"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_bstool)" rx="16"/>
+  <ellipse cx="200" cy="250" rx="55" ry="10" fill="rgba(0,0,0,0.07)"/>
+  <g filter="url(#sh_bstool)">
+    <polygon points="175,170 160,248 168,248 180,170" fill="#2E241B"/>
+    <polygon points="225,170 240,248 232,248 220,170" fill="#2E241B"/>
+    <ellipse cx="200" cy="220" rx="28" ry="6" fill="none" stroke="#2E241B" stroke-width="3"/>
+    <ellipse cx="200" cy="165" rx="42" ry="14" fill="#C5A07A"/>
+    <path d="M165,165 Q160,110 200,110 Q240,110 235,165" fill="none" stroke="#A88159" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

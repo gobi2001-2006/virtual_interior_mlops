@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_cside" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F9F9F8"/><stop offset="100%" stop-color="#EBEAE6"/></linearGradient>
+    <filter id="sh_cside"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_cside)" rx="16"/>
+  <ellipse cx="200" cy="242" rx="65" ry="10" fill="rgba(0,0,0,0.07)"/>
+  <g filter="url(#sh_cside)">
+    <path d="M150,140 Q180,185 160,230 L240,230 Q220,185 250,140 Z" fill="#D3CBC0"/>
+    <ellipse cx="200" cy="140" rx="55" ry="16" fill="#EDE7DD" stroke="#C5BCAE" stroke-width="2"/>
+    <ellipse cx="200" cy="138" rx="20" ry="6" fill="#9E8B75" opacity="0.6"/>
+  </g>
+</svg>

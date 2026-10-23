@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_bts" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAF9F6"/><stop offset="100%" stop-color="#ECE5D8"/></linearGradient>
+    <filter id="sh_bts"><feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_bts)" rx="16"/>
+  <ellipse cx="200" cy="250" rx="70" ry="10" fill="rgba(0,0,0,0.06)"/>
+  <g filter="url(#sh_bts)">
+    <rect x="145" y="70" width="5" height="175" fill="#C5A07A"/>
+    <rect x="250" y="70" width="5" height="175" fill="#C5A07A"/>
+    <rect x="140" y="90" width="120" height="8" rx="2" fill="#D7CCC8"/>
+    <rect x="140" y="140" width="120" height="8" rx="2" fill="#D7CCC8"/>
+    <rect x="140" y="190" width="120" height="8" rx="2" fill="#D7CCC8"/>
+    <rect x="160" y="125" width="35" height="15" rx="3" fill="#80CBC4"/>
+    <rect x="205" y="125" width="35" height="15" rx="3" fill="#FFF"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_sofa1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F7F5" />
+      <stop offset="100%" stop-color="#E4EAE4" />
+    </linearGradient>
+    <filter id="shadow_sofa1" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_sofa1)" rx="16" />
+  <ellipse cx="200" cy="245" rx="140" ry="16" fill="rgba(0,0,0,0.07)" />
+  <g filter="url(#shadow_sofa1)">
+    <polygon points="90,210 98,245 106,245 98,210" fill="#8B5A2B" />
+    <polygon points="120,210 124,242 130,242 126,210" fill="#654321" />
+    <polygon points="302,210 294,245 286,245 294,210" fill="#8B5A2B" />
+    <polygon points="274,210 270,242 264,242 268,210" fill="#654321" />
+    <rect x="75" y="90" width="250" height="95" rx="18" fill="#586A5B" />
+    <rect x="85" y="95" width="72" height="75" rx="12" fill="#6B7C6E" />
+    <rect x="164" y="95" width="72" height="75" rx="12" fill="#6B7C6E" />
+    <rect x="243" y="95" width="72" height="75" rx="12" fill="#6B7C6E" />
+    <rect x="70" y="165" width="260" height="52" rx="14" fill="#637466" />
+    <line x1="156" y1="168" x2="156" y2="214" stroke="#4D5C50" stroke-width="2.5" />
+    <line x1="244" y1="168" x2="244" y2="214" stroke="#4D5C50" stroke-width="2.5" />
+    <rect x="62" y="135" width="24" height="75" rx="10" fill="#546557" />
+    <rect x="314" y="135" width="24" height="75" rx="10" fill="#546557" />
+    <rect x="86" y="150" width="34" height="34" rx="6" transform="rotate(-8 103 167)" fill="#D8CFBC" />
+    <rect x="280" y="150" width="34" height="34" rx="6" transform="rotate(8 297 167)" fill="#C5BAA8" />
+  </g>
+</svg>

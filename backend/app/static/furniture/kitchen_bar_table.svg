@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_btbl" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FBFBF9"/><stop offset="100%" stop-color="#EDECE8"/></linearGradient>
+    <filter id="sh_btbl"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg_btbl)" rx="16"/>
+  <ellipse cx="200" cy="252" rx="115" ry="12" fill="rgba(0,0,0,0.07)"/>
+  <g filter="url(#sh_btbl)">
+    <line x1="120" y1="120" x2="110" y2="248" stroke="#212121" stroke-width="6" stroke-linecap="round"/>
+    <line x1="280" y1="120" x2="290" y2="248" stroke="#212121" stroke-width="6" stroke-linecap="round"/>
+    <line x1="115" y1="190" x2="285" y2="190" stroke="#212121" stroke-width="4"/>
+    <rect x="90" y="105" width="220" height="18" rx="4" fill="#7A583E" stroke="#5C4033" stroke-width="1.5"/>
+  </g>
+</svg>
